@@ -16,10 +16,10 @@ class Burger:
         self.bun = None
         self.ingredients: List[Ingredient] = []
 
-    def set_buns(self, bun: Bun):
+    def set_buns(self, bun: Bun):# принимает экземпляр модели Bun - булочка
         self.bun = bun
 
-    def add_ingredient(self, ingredient: Ingredient):
+    def add_ingredient(self, ingredient: Ingredient): # принимает экземпляр модели Ingredient - ингредиент
         self.ingredients.append(ingredient)
 
     def remove_ingredient(self, index: int):
